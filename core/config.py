@@ -21,11 +21,12 @@ class Config:
     BASE_MODEL = os.getenv("BASE_MODEL", "mistralai/Mistral-7B-Instruct-v0.2")
     LORA_PATH = os.getenv("LORA_PATH", "mistral_lora_final")
     
-    # CORS Origins (comma-separated list)
-    ALLOWED_ORIGINS = os.getenv(
+    # CORS Origins (comma-separated list, or "*" to allow all)
+    _origins_raw = os.getenv(
         "ALLOWED_ORIGINS", 
         "http://localhost:5173,http://127.0.0.1:5173"
-    ).split(",")
+    )
+    ALLOWED_ORIGINS = ["*"] if _origins_raw.strip() == "*" else _origins_raw.split(",")
     
     # Server
     HOST = os.getenv("HOST", "0.0.0.0")
