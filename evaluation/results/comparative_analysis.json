@@ -1,0 +1,26 @@
+{
+  "Fine-Tuned\n(Ours)": {
+    "rouge_l": 0.0987,
+    "bert_f1": 0.822,
+    "cosine_sim": 0.6057,
+    "avg_combined": 0.5088
+  },
+  "Base\nMistral-7B": {
+    "rouge_l": 0.0915,
+    "bert_f1": 0.8421,
+    "cosine_sim": 0.5726,
+    "avg_combined": 0.5021
+  },
+  "ChatGPT": {
+    "rouge_l": 0.1106,
+    "bert_f1": 0.8394,
+    "cosine_sim": 0.6227,
+    "avg_combined": 0.5243
+  },
+  "Gemini": {
+    "rouge_l": 0.1417,
+    "bert_f1": 0.8413,
+    "cosine_sim": 0.6069,
+    "avg_combined": 0.53
+  }
+}

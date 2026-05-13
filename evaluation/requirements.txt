@@ -1,0 +1,14 @@
+# Evaluation Framework Dependencies
+# Install with: pip install -r evaluation/requirements.txt
+
+rouge-score>=0.1.2
+nltk>=3.8
+bert-score>=0.3.13
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.7.0
+bitsandbytes>=0.41.0

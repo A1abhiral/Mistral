@@ -1,0 +1,46 @@
+# Virtual environment
+mistral_env/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Environment variables
+.env
+Retrieval/.env
+
+# Database
+*.db
+
+# Logs
+*.log
+traceback.log
+
+# Old training checkpoints (too large for GitHub)
+mistral_lora/
+
+# Final LoRA weights (~55MB, keep in repo)
+# mistral_lora_final/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+dist/
+build/
+*.egg-info/

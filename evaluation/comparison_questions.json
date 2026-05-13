@@ -1,0 +1,128 @@
+[
+  {
+    "id": "chemistry_1",
+    "subject": "Chemistry",
+    "question": "Subject: Chemistry\nQuestion: Why is LPG preferred as domestic fuel?",
+    "textbook_answer": "High calorific value and clean burning.",
+    "system_prompt": "You are a Grade 12 NEB Chemistry teacher."
+  },
+  {
+    "id": "chemistry_2",
+    "subject": "Chemistry",
+    "question": "Subject: Chemistry\nQuestion: Why is benzene more stable than expected according to Kekulé’s structure?",
+    "textbook_answer": "Delocalization of π-electrons over six carbon atoms leads to resonance stabilization.",
+    "system_prompt": "You are a Grade 12 NEB Chemistry teacher."
+  },
+  {
+    "id": "chemistry_3",
+    "subject": "Chemistry",
+    "question": "Subject: Chemistry\nQuestion: Why does CH₃CH₂Br react faster in ethanol than in water?",
+    "textbook_answer": "Ethanol favors SN2 mechanism; water favors elimination.",
+    "system_prompt": "You are a Grade 12 NEB Chemistry teacher."
+  },
+  {
+    "id": "chemistry_4",
+    "subject": "Chemistry",
+    "question": "Subject: Chemistry\nQuestion: Explain why Al³⁺ ions are acidic in aqueous solution.",
+    "textbook_answer": "Al³⁺ polarizes water → H⁺ released → acidic solution.",
+    "system_prompt": "You are a Grade 12 NEB Chemistry teacher."
+  },
+  {
+    "id": "chemistry_5",
+    "subject": "Chemistry",
+    "question": "Subject: Chemistry\nQuestion: Why is CH₃CH₂OH a better solvent than hexane for polar compounds?",
+    "textbook_answer": "Ethanol is polar and can form hydrogen bonds with solute; hexane is nonpolar.",
+    "system_prompt": "You are a Grade 12 NEB Chemistry teacher."
+  },
+  {
+    "id": "chemistry_6",
+    "subject": "Chemistry",
+    "question": "Subject: Chemistry\nQuestion: Why are gases more compressible than liquids?",
+    "textbook_answer": "Because gas molecules are far apart and can be pushed closer together.",
+    "system_prompt": "You are a Grade 12 NEB Chemistry teacher."
+  },
+  {
+    "id": "physics_1",
+    "subject": "Physics",
+    "question": "Subject: Physics\nQuestion: Define gamma ray.",
+    "textbook_answer": "High-energy electromagnetic radiation emitted by a nucleus.",
+    "system_prompt": "You are a Grade 12 NEB Physics teacher."
+  },
+  {
+    "id": "physics_2",
+    "subject": "Physics",
+    "question": "Subject: Physics\nQuestion: Define gravitational potential energy.",
+    "textbook_answer": "Energy possessed by a body due to its position in gravitational field.",
+    "system_prompt": "You are a Grade 12 NEB Physics teacher."
+  },
+  {
+    "id": "physics_3",
+    "subject": "Physics",
+    "question": "Subject: Physics\nQuestion: Why is gravitational force conservative?",
+    "textbook_answer": "Work done by gravity depends only on initial and final positions.",
+    "system_prompt": "You are a Grade 12 NEB Physics teacher."
+  },
+  {
+    "id": "physics_4",
+    "subject": "Physics",
+    "question": "Subject: Physics\nQuestion: Why do sound waves reflect to produce echoes?",
+    "textbook_answer": "Because sound waves undergo reflection at surfaces.",
+    "system_prompt": "You are a Grade 12 NEB Physics teacher."
+  },
+  {
+    "id": "physics_5",
+    "subject": "Physics",
+    "question": "Subject: Physics\nQuestion: Define strain.",
+    "textbook_answer": "Ratio of change in dimension to original dimension.",
+    "system_prompt": "You are a Grade 12 NEB Physics teacher."
+  },
+  {
+    "id": "physics_6",
+    "subject": "Physics",
+    "question": "Subject: Physics\nQuestion: Why are ICs preferred over discrete components?",
+    "textbook_answer": "Because they are compact, efficient, and reliable.",
+    "system_prompt": "You are a Grade 12 NEB Physics teacher."
+  },
+  {
+    "id": "computer_science_1",
+    "subject": "Computer Science",
+    "question": "Subject: Computer Science\nQuestion: Explain the difference between procedural and object-oriented programming.",
+    "textbook_answer": "Procedural: code structured with procedures/functions. OOP: code structured with classes/objects, supports encapsulation, inheritance, polymorphism.",
+    "system_prompt": "You are a Grade 12 NEB Computer Science teacher."
+  },
+  {
+    "id": "computer_science_2",
+    "subject": "Computer Science",
+    "question": "Subject: Computer Science\nQuestion: Explain what a deadlock is and one way to prevent it.",
+    "textbook_answer": "Deadlock occurs when processes wait indefinitely for resources. Prevention: avoid circular wait by resource allocation policies.",
+    "system_prompt": "You are a Grade 12 NEB Computer Science teacher."
+  },
+  {
+    "id": "computer_science_3",
+    "subject": "Computer Science",
+    "question": "Subject: Computer Science\nQuestion: Explain the difference between primary key and foreign key in databases.",
+    "textbook_answer": "Primary key uniquely identifies a record in a table; foreign key refers to a primary key in another table to enforce referential integrity.",
+    "system_prompt": "You are a Grade 12 NEB Computer Science teacher."
+  },
+  {
+    "id": "computer_science_4",
+    "subject": "Computer Science",
+    "question": "Subject: Computer Science\nQuestion: Explain the difference between IPv4 and IPv6 in terms of packet headers and address space.",
+    "textbook_answer": "IPv4: 32-bit address, simpler headers, limited addresses. IPv6: 128-bit address, more complex headers, huge address space.",
+    "system_prompt": "You are a Grade 12 NEB Computer Science teacher."
+  },
+  {
+    "id": "computer_science_5",
+    "subject": "Computer Science",
+    "question": "Subject: Computer Science\nQuestion: What is a hash function and where is it used?",
+    "textbook_answer": "A hash function maps input data to a fixed-size value (hash). Used in hash tables, encryption, and data integrity.",
+    "system_prompt": "You are a Grade 12 NEB Computer Science teacher."
+  },
+  {
+    "id": "computer_science_6",
+    "subject": "Computer Science",
+    "question": "Subject: Computer Science\nQuestion: Explain the difference between compiler and interpreter.",
+    "textbook_answer": "Compiler translates the whole program to machine code before execution; interpreter translates and executes code line by line.",
+    "system_prompt": "You are a Grade 12 NEB Computer Science teacher."
+  }
+]

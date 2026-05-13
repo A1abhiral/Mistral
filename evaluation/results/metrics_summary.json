@@ -1,0 +1,77 @@
+{
+  "total_questions": 18,
+  "finetuned_model": {
+    "rouge_l_mean": 0.0987,
+    "bleu_mean": 0.0135,
+    "bert_f1_mean": 0.822,
+    "cosine_sim_mean": 0.6057,
+    "keyword_hit_mean": 0.5946
+  },
+  "base_model": {
+    "rouge_l_mean": 0.0915,
+    "bleu_mean": 0.0091,
+    "bert_f1_mean": 0.8421,
+    "cosine_sim_mean": 0.5726,
+    "keyword_hit_mean": 0.5997
+  },
+  "improvement": {
+    "rouge_l": 7.87,
+    "bleu": 48.35,
+    "bert_f1": -2.39,
+    "cosine_sim": 5.78,
+    "keyword_hit": -0.85
+  },
+  "finetuned_wins": 10,
+  "base_wins": 8,
+  "ties": 0,
+  "per_subject": {
+    "Physics": {
+      "finetuned": {
+        "rouge_l": 0.0646,
+        "bleu": 0.0093,
+        "bert_f1": 0.8138,
+        "cosine_sim": 0.5087,
+        "keyword_hit": 0.5409
+      },
+      "base": {
+        "rouge_l": 0.0823,
+        "bleu": 0.0101,
+        "bert_f1": 0.848,
+        "cosine_sim": 0.4952,
+        "keyword_hit": 0.6079
+      }
+    },
+    "Chemistry": {
+      "finetuned": {
+        "rouge_l": 0.0689,
+        "bleu": 0.0066,
+        "bert_f1": 0.8229,
+        "cosine_sim": 0.5603,
+        "keyword_hit": 0.5313
+      },
+      "base": {
+        "rouge_l": 0.0778,
+        "bleu": 0.0036,
+        "bert_f1": 0.8338,
+        "cosine_sim": 0.5001,
+        "keyword_hit": 0.5468
+      }
+    },
+    "Computer Science": {
+      "finetuned": {
+        "rouge_l": 0.1626,
+        "bleu": 0.0247,
+        "bert_f1": 0.8293,
+        "cosine_sim": 0.748,
+        "keyword_hit": 0.7117
+      },
+      "base": {
+        "rouge_l": 0.1145,
+        "bleu": 0.0135,
+        "bert_f1": 0.8446,
+        "cosine_sim": 0.7225,
+        "keyword_hit": 0.6444
+      }
+    }
+  }
+}

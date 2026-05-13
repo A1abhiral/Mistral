@@ -1,0 +1,15 @@
+.env
+mistral_env/
+__pycache__/
+*.pyc
+*.db
+*.log
+.git/
+.gitignore
+README.md
+test_*.py
+evaluation/
+raw_data/
+data/
+mistral_lora/
+finetune_mistral7b.py

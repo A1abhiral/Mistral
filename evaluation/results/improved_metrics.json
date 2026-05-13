@@ -1,0 +1,523 @@
+{
+  "summary": {
+    "total_questions": 18,
+    "finetuned": {
+      "first_sent_rouge": 0.4072,
+      "first_sent_bleu": 0.1339,
+      "first_sent_bert": 0.9141,
+      "first_sent_cosine": 0.7346,
+      "directness": 1.0,
+      "conciseness": 0.3896
+    },
+    "base": {
+      "first_sent_rouge": 0.1805,
+      "first_sent_bleu": 0.0238,
+      "first_sent_bert": 0.8589,
+      "first_sent_cosine": 0.5206,
+      "directness": 0.7278,
+      "conciseness": 0.3384
+    },
+    "improvement_pct": {
+      "first_sent_rouge": 125.59,
+      "first_sent_bleu": 461.67,
+      "first_sent_bert": 6.42,
+      "first_sent_cosine": 41.1,
+      "directness": 37.4,
+      "conciseness": 15.13
+    },
+    "wins": {
+      "finetuned": 18,
+      "base": 0
+    },
+    "per_subject": {
+      "Chemistry": {
+        "finetuned": {
+          "first_sent_rouge": 0.3028,
+          "first_sent_bleu": 0.0433,
+          "first_sent_bert": 0.8972,
+          "first_sent_cosine": 0.6604,
+          "directness": 1.0,
+          "conciseness": 0.3555
+        },
+        "base": {
+          "first_sent_rouge": 0.0882,
+          "first_sent_bleu": 0.0086,
+          "first_sent_bert": 0.8385,
+          "first_sent_cosine": 0.3179,
+          "directness": 0.6667,
+          "conciseness": 0.3213
+        }
+      },
+      "Computer Science": {
+        "finetuned": {
+          "first_sent_rouge": 0.5434,
+          "first_sent_bleu": 0.175,
+          "first_sent_bert": 0.9305,
+          "first_sent_cosine": 0.9042,
+          "directness": 1.0,
+          "conciseness": 0.4678
+        },
+        "base": {
+          "first_sent_rouge": 0.2463,
+          "first_sent_bleu": 0.0262,
+          "first_sent_bert": 0.8679,
+          "first_sent_cosine": 0.771,
+          "directness": 0.7167,
+          "conciseness": 0.3562
+        }
+      },
+      "Physics": {
+        "finetuned": {
+          "first_sent_rouge": 0.3753,
+          "first_sent_bleu": 0.1834,
+          "first_sent_bert": 0.9144,
+          "first_sent_cosine": 0.6391,
+          "directness": 1.0,
+          "conciseness": 0.3453
+        },
+        "base": {
+          "first_sent_rouge": 0.207,
+          "first_sent_bleu": 0.0367,
+          "first_sent_bert": 0.8703,
+          "first_sent_cosine": 0.473,
+          "directness": 0.8,
+          "conciseness": 0.3377
+        }
+      }
+    }
+  },
+  "per_question": [
+    {
+      "id": "chemistry_1",
+      "subject": "Chemistry",
+      "question": "Subject: Chemistry\nQuestion: Why is LPG preferred as domestic fuel?",
+      "textbook_answer": "High calorific value and clean burning.",
+      "ft_first_sentence": "It has higher energy density and burns cleanly.",
+      "base_first_sentence": "In the context of domestic use, LPG (Liquefied Petroleum Gas) is preferred over other fuels for several reasons:",
+      "ft_scores": {
+        "first_sent_rouge": 0.2857,
+        "first_sent_bleu": 0.0285,
+        "first_sent_bert": 0.9066,
+        "first_sent_cosine": 0.5371,
+        "directness": 1.0,
+        "conciseness": 0.2577
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.0,
+        "first_sent_bleu": 0,
+        "first_sent_bert": 0.8396,
+        "first_sent_cosine": 0.1425,
+        "directness": 0.7,
+        "conciseness": 0.2012
+      }
+    },
+    {
+      "id": "chemistry_2",
+      "subject": "Chemistry",
+      "question": "Subject: Chemistry\nQuestion: Why is benzene more stable than expected according to Kekulé’s structure?",
+      "textbook_answer": "Delocalization of π-electrons over six carbon atoms leads to resonance stabilization.",
+      "ft_first_sentence": "Because of resonance stabilization.",
+      "base_first_sentence": "To answer your question, let's first discuss Kekulé's structure of benzene.",
+      "ft_scores": {
+        "first_sent_rouge": 0.4,
+        "first_sent_bleu": 0.0705,
+        "first_sent_bert": 0.8923,
+        "first_sent_cosine": 0.5175,
+        "directness": 1.0,
+        "conciseness": 0.3491
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.0833,
+        "first_sent_bleu": 0.0174,
+        "first_sent_bert": 0.8385,
+        "first_sent_cosine": 0.2903,
+        "directness": 0.4,
+        "conciseness": 0.2619
+      }
+    },
+    {
+      "id": "chemistry_3",
+      "subject": "Chemistry",
+      "question": "Subject: Chemistry\nQuestion: Why does CH₃CH₂Br react faster in ethanol than in water?",
+      "textbook_answer": "Ethanol favors SN2 mechanism; water favors elimination.",
+      "ft_first_sentence": "Ethanol acts as polar solvent facilitating SN2 substitution; water is less effective.",
+      "base_first_sentence": "I'd be happy to help answer your question!",
+      "ft_scores": {
+        "first_sent_rouge": 0.3158,
+        "first_sent_bleu": 0.038,
+        "first_sent_bert": 0.9245,
+        "first_sent_cosine": 0.9011,
+        "directness": 1.0,
+        "conciseness": 0.3727
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.0,
+        "first_sent_bleu": 0,
+        "first_sent_bert": 0.8086,
+        "first_sent_cosine": 0.052,
+        "directness": 0.7,
+        "conciseness": 0.2526
+      }
+    },
+    {
+      "id": "chemistry_4",
+      "subject": "Chemistry",
+      "question": "Subject: Chemistry\nQuestion: Explain why Al³⁺ ions are acidic in aqueous solution.",
+      "textbook_answer": "Al³⁺ polarizes water → H⁺ released → acidic solution.",
+      "ft_first_sentence": "Al³⁺ ions can accept a proton, forming Al³⁺H⁺ complex, making the solution acidic.",
+      "base_first_sentence": "Aluminum ion, Al³⁺, is acidic in aqueous solution due to its tendency to gain hydration water molecules through a process called hydrolysis. This process forms hydroxide ions (OH⁻) and aluminum hydroxide species. The release of hydroxide ions in water makes the solution acidic.",
+      "ft_scores": {
+        "first_sent_rouge": 0.2857,
+        "first_sent_bleu": 0.0174,
+        "first_sent_bert": 0.8916,
+        "first_sent_cosine": 0.8102,
+        "directness": 1.0,
+        "conciseness": 0.4135
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.16,
+        "first_sent_bleu": 0.0055,
+        "first_sent_bert": 0.8555,
+        "first_sent_cosine": 0.726,
+        "directness": 0.8,
+        "conciseness": 0.3716
+      }
+    },
+    {
+      "id": "chemistry_5",
+      "subject": "Chemistry",
+      "question": "Subject: Chemistry\nQuestion: Why is CH₃CH₂OH a better solvent than hexane for polar compounds?",
+      "textbook_answer": "Ethanol is polar and can form hydrogen bonds with solute; hexane is nonpolar.",
+      "ft_first_sentence": "–OH group provides hydrogen bonding and dipole–dipole interactions.",
+      "base_first_sentence": "I'm glad you've asked this question!",
+      "ft_scores": {
+        "first_sent_rouge": 0.1818,
+        "first_sent_bleu": 0.0175,
+        "first_sent_bert": 0.8551,
+        "first_sent_cosine": 0.3646,
+        "directness": 1.0,
+        "conciseness": 0.4535
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.0,
+        "first_sent_bleu": 0,
+        "first_sent_bert": 0.7964,
+        "first_sent_cosine": -0.0625,
+        "directness": 0.6,
+        "conciseness": 0.3875
+      }
+    },
+    {
+      "id": "chemistry_6",
+      "subject": "Chemistry",
+      "question": "Subject: Chemistry\nQuestion: Why are gases more compressible than liquids?",
+      "textbook_answer": "Because gas molecules are far apart and can be pushed closer together.",
+      "ft_first_sentence": "Because gases have large intermolecular distances and can be easily compressed.",
+      "base_first_sentence": "In a gas, the molecules are much farther apart from each other compared to a liquid.",
+      "ft_scores": {
+        "first_sent_rouge": 0.3478,
+        "first_sent_bleu": 0.0881,
+        "first_sent_bert": 0.913,
+        "first_sent_cosine": 0.8319,
+        "directness": 1.0,
+        "conciseness": 0.2868
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.2857,
+        "first_sent_bleu": 0.0287,
+        "first_sent_bert": 0.8927,
+        "first_sent_cosine": 0.7589,
+        "directness": 0.8,
+        "conciseness": 0.4527
+      }
+    },
+    {
+      "id": "physics_1",
+      "subject": "Physics",
+      "question": "Subject: Physics\nQuestion: Define gamma ray.",
+      "textbook_answer": "High-energy electromagnetic radiation emitted by a nucleus.",
+      "ft_first_sentence": "High-energy electromagnetic radiation produced in nuclear reactions.",
+      "base_first_sentence": "Gamma rays are the highest energy form of electromagnetic radiation.",
+      "ft_scores": {
+        "first_sent_rouge": 0.5,
+        "first_sent_bleu": 0.1477,
+        "first_sent_bert": 0.9458,
+        "first_sent_cosine": 0.8316,
+        "directness": 1.0,
+        "conciseness": 0.375
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.3333,
+        "first_sent_bleu": 0.0441,
+        "first_sent_bert": 0.8982,
+        "first_sent_cosine": 0.6917,
+        "directness": 0.8,
+        "conciseness": 0.3733
+      }
+    },
+    {
+      "id": "physics_2",
+      "subject": "Physics",
+      "question": "Subject: Physics\nQuestion: Define gravitational potential energy.",
+      "textbook_answer": "Energy possessed by a body due to its position in gravitational field.",
+      "ft_first_sentence": "Energy possessed by a body due to its position in a gravitational field.",
+      "base_first_sentence": "In physics, the gravitational potential energy (GPE) of an object is the energy an object possesses due to its position within a gravitational field.",
+      "ft_scores": {
+        "first_sent_rouge": 0.96,
+        "first_sent_bleu": 0.7825,
+        "first_sent_bert": 0.9912,
+        "first_sent_cosine": 0.9968,
+        "directness": 1.0,
+        "conciseness": 0.4451
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.4444,
+        "first_sent_bleu": 0.1322,
+        "first_sent_bert": 0.8834,
+        "first_sent_cosine": 0.6499,
+        "directness": 0.8,
+        "conciseness": 0.4566
+      }
+    },
+    {
+      "id": "physics_3",
+      "subject": "Physics",
+      "question": "Subject: Physics\nQuestion: Why is gravitational force conservative?",
+      "textbook_answer": "Work done by gravity depends only on initial and final positions.",
+      "ft_first_sentence": "Because it depends only on position and not on the history of motion.",
+      "base_first_sentence": "I'm glad you're asking about the conservation of gravitational force in the context of physics. Gravitational force is conservative because it is a potential energy field.",
+      "ft_scores": {
+        "first_sent_rouge": 0.3333,
+        "first_sent_bleu": 0.0803,
+        "first_sent_bert": 0.9008,
+        "first_sent_cosine": 0.3485,
+        "directness": 1.0,
+        "conciseness": 0.4273
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.0,
+        "first_sent_bleu": 0.0062,
+        "first_sent_bert": 0.8458,
+        "first_sent_cosine": 0.2656,
+        "directness": 0.6,
+        "conciseness": 0.268
+      }
+    },
+    {
+      "id": "physics_4",
+      "subject": "Physics",
+      "question": "Subject: Physics\nQuestion: Why do sound waves reflect to produce echoes?",
+      "textbook_answer": "Because sound waves undergo reflection at surfaces.",
+      "ft_first_sentence": "Because sound is a longitudinal wave that travels in a medium.",
+      "base_first_sentence": "In a closed or reflective environment, sound waves do not disappear when they encounter a surface, instead, they bounce back or reflect.",
+      "ft_scores": {
+        "first_sent_rouge": 0.3333,
+        "first_sent_bleu": 0.0399,
+        "first_sent_bert": 0.9016,
+        "first_sent_cosine": 0.7804,
+        "directness": 1.0,
+        "conciseness": 0.2417
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.2069,
+        "first_sent_bleu": 0.017,
+        "first_sent_bert": 0.9065,
+        "first_sent_cosine": 0.7167,
+        "directness": 0.8,
+        "conciseness": 0.3854
+      }
+    },
+    {
+      "id": "physics_5",
+      "subject": "Physics",
+      "question": "Subject: Physics\nQuestion: Define strain.",
+      "textbook_answer": "Ratio of change in dimension to original dimension.",
+      "ft_first_sentence": "Partial deformation per unit length.",
+      "base_first_sentence": "Strain in the context of physics, particularly in the field of mechanics, refers to the partial deformation or displacement of an object under an applied load or force.",
+      "ft_scores": {
+        "first_sent_rouge": 0.0,
+        "first_sent_bleu": 0.0248,
+        "first_sent_bert": 0.8743,
+        "first_sent_cosine": 0.4029,
+        "directness": 1.0,
+        "conciseness": 0.2855
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.1667,
+        "first_sent_bleu": 0.0085,
+        "first_sent_bert": 0.835,
+        "first_sent_cosine": 0.1272,
+        "directness": 0.8,
+        "conciseness": 0.3212
+      }
+    },
+    {
+      "id": "physics_6",
+      "subject": "Physics",
+      "question": "Subject: Physics\nQuestion: Why are ICs preferred over discrete components?",
+      "textbook_answer": "Because they are compact, efficient, and reliable.",
+      "ft_first_sentence": "Because ICs integrate multiple components into a single chip.",
+      "base_first_sentence": "In modern electronic systems, Integrated Circuits (ICs) are preferred over discrete components for several reasons:",
+      "ft_scores": {
+        "first_sent_rouge": 0.125,
+        "first_sent_bleu": 0.0251,
+        "first_sent_bert": 0.873,
+        "first_sent_cosine": 0.4745,
+        "directness": 1.0,
+        "conciseness": 0.2974
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.0909,
+        "first_sent_bleu": 0.0121,
+        "first_sent_bert": 0.853,
+        "first_sent_cosine": 0.3868,
+        "directness": 1.0,
+        "conciseness": 0.2218
+      }
+    },
+    {
+      "id": "computer_science_1",
+      "subject": "Computer Science",
+      "question": "Subject: Computer Science\nQuestion: Explain the difference between procedural and object-oriented programming.",
+      "textbook_answer": "Procedural: code structured with procedures/functions. OOP: code structured with classes/objects, supports encapsulation, inheritance, polymorphism.",
+      "ft_first_sentence": "Procedural: focuses on functions, data is global. OOP: uses classes, objects, encapsulation, inheritance.",
+      "base_first_sentence": "I'd be happy to help explain the difference between procedural and object-oriented programming!",
+      "ft_scores": {
+        "first_sent_rouge": 0.4828,
+        "first_sent_bleu": 0.0935,
+        "first_sent_bert": 0.9238,
+        "first_sent_cosine": 0.8908,
+        "directness": 1.0,
+        "conciseness": 0.5
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.129,
+        "first_sent_bleu": 0.0089,
+        "first_sent_bert": 0.8419,
+        "first_sent_cosine": 0.7546,
+        "directness": 0.6,
+        "conciseness": 0.3309
+      }
+    },
+    {
+      "id": "computer_science_2",
+      "subject": "Computer Science",
+      "question": "Subject: Computer Science\nQuestion: Explain what a deadlock is and one way to prevent it.",
+      "textbook_answer": "Deadlock occurs when processes wait indefinitely for resources. Prevention: avoid circular wait by resource allocation policies.",
+      "ft_first_sentence": "Deadlock occurs when two processes wait for each other indefinitely; one way to prevent it is by using resource allocation in a predetermined order.",
+      "base_first_sentence": "A deadlock is a situation that can occur in a concurrent system when two or more processes are each waiting for the other to release a resource or take a specific action. This results in both processes being unable to proceed, leading to a standstill or a state of mutual exclusion.",
+      "ft_scores": {
+        "first_sent_rouge": 0.5,
+        "first_sent_bleu": 0.0592,
+        "first_sent_bert": 0.926,
+        "first_sent_cosine": 0.9174,
+        "directness": 1.0,
+        "conciseness": 0.4522
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.209,
+        "first_sent_bleu": 0.0055,
+        "first_sent_bert": 0.865,
+        "first_sent_cosine": 0.8167,
+        "directness": 0.8,
+        "conciseness": 0.3165
+      }
+    },
+    {
+      "id": "computer_science_3",
+      "subject": "Computer Science",
+      "question": "Subject: Computer Science\nQuestion: Explain the difference between primary key and foreign key in databases.",
+      "textbook_answer": "Primary key uniquely identifies a record in a table; foreign key refers to a primary key in another table to enforce referential integrity.",
+      "ft_first_sentence": "Primary key uniquely identifies a record in a table; foreign key establishes a relationship with another table's primary key.",
+      "base_first_sentence": "Absolutely, I'd be happy to help explain the difference between a primary key and a foreign key in the context of databases.",
+      "ft_scores": {
+        "first_sent_rouge": 0.6512,
+        "first_sent_bleu": 0.5135,
+        "first_sent_bert": 0.9494,
+        "first_sent_cosine": 0.9319,
+        "directness": 1.0,
+        "conciseness": 0.53
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.2609,
+        "first_sent_bleu": 0.0587,
+        "first_sent_bert": 0.8613,
+        "first_sent_cosine": 0.7334,
+        "directness": 0.6,
+        "conciseness": 0.4037
+      }
+    },
+    {
+      "id": "computer_science_4",
+      "subject": "Computer Science",
+      "question": "Subject: Computer Science\nQuestion: Explain the difference between IPv4 and IPv6 in terms of packet headers and address space.",
+      "textbook_answer": "IPv4: 32-bit address, simpler headers, limited addresses. IPv6: 128-bit address, more complex headers, huge address space.",
+      "ft_first_sentence": "IPv4: 20-byte header, 32-bit address space (4 billion addresses). IPv6: 40-byte header, 128-bit address space (340 undecillion addresses).",
+      "base_first_sentence": "I'd be happy to help explain the differences between IPv4 and IPv6, particularly in the context of packet headers and address space.",
+      "ft_scores": {
+        "first_sent_rouge": 0.5,
+        "first_sent_bleu": 0.0643,
+        "first_sent_bert": 0.9151,
+        "first_sent_cosine": 0.9067,
+        "directness": 1.0,
+        "conciseness": 0.4518
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.2439,
+        "first_sent_bleu": 0.0463,
+        "first_sent_bert": 0.8744,
+        "first_sent_cosine": 0.7672,
+        "directness": 0.7,
+        "conciseness": 0.324
+      }
+    },
+    {
+      "id": "computer_science_5",
+      "subject": "Computer Science",
+      "question": "Subject: Computer Science\nQuestion: What is a hash function and where is it used?",
+      "textbook_answer": "A hash function maps input data to a fixed-size value (hash). Used in hash tables, encryption, and data integrity.",
+      "ft_first_sentence": "A hash function is used to map a large data set to a smaller fixed size. It is used in various applications like database indexing, password storage, and in data structures like hash tables.",
+      "base_first_sentence": "A hash function is a mathematical function that maps data of an arbitrary size to a fixed size. The result is called a hash value or simply a hash. It's a quick way to compute a unique representation of an input, which is particularly useful for indexing and retrieving data in a database.",
+      "ft_scores": {
+        "first_sent_rouge": 0.4815,
+        "first_sent_bleu": 0.0482,
+        "first_sent_bert": 0.9161,
+        "first_sent_cosine": 0.8562,
+        "directness": 1.0,
+        "conciseness": 0.4224
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.3784,
+        "first_sent_bleu": 0.0266,
+        "first_sent_bert": 0.9006,
+        "first_sent_cosine": 0.8317,
+        "directness": 0.9,
+        "conciseness": 0.3975
+      }
+    },
+    {
+      "id": "computer_science_6",
+      "subject": "Computer Science",
+      "question": "Subject: Computer Science\nQuestion: Explain the difference between compiler and interpreter.",
+      "textbook_answer": "Compiler translates the whole program to machine code before execution; interpreter translates and executes code line by line.",
+      "ft_first_sentence": "Compiler translates entire program before execution; interpreter translates line by line during execution.",
+      "base_first_sentence": "In the context of programming, both compilers and interpreters are tools used to execute code. However, they operate in different ways.",
+      "ft_scores": {
+        "first_sent_rouge": 0.6452,
+        "first_sent_bleu": 0.2712,
+        "first_sent_bert": 0.9529,
+        "first_sent_cosine": 0.922,
+        "directness": 1.0,
+        "conciseness": 0.4507
+      },
+      "base_scores": {
+        "first_sent_rouge": 0.2564,
+        "first_sent_bleu": 0.0113,
+        "first_sent_bert": 0.864,
+        "first_sent_cosine": 0.7222,
+        "directness": 0.7,
+        "conciseness": 0.3644
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Fine-Tuned (Ours)": {
+    "full_response": {
+      "rouge_l": 0.0987,
+      "bert_f1": 0.822,
+      "cosine_sim": 0.6057
+    },
+    "first_sentence": {
+      "rouge_l": 0.4072,
+      "bert_f1": 0.9141,
+      "cosine_sim": 0.7346
+    },
+    "directness": 1.0
+  },
+  "Base Mistral-7B": {
+    "full_response": {
+      "rouge_l": 0.0915,
+      "bert_f1": 0.8421,
+      "cosine_sim": 0.5726
+    },
+    "first_sentence": {
+      "rouge_l": 0.1805,
+      "bert_f1": 0.8589,
+      "cosine_sim": 0.5206
+    },
+    "directness": 0.6556
+  },
+  "ChatGPT": {
+    "full_response": {
+      "rouge_l": 0.1106,
+      "bert_f1": 0.8394,
+      "cosine_sim": 0.6227
+    },
+    "first_sentence": {
+      "rouge_l": 0.2475,
+      "bert_f1": 0.8706,
+      "cosine_sim": 0.602
+    },
+    "directness": 0.6889
+  },
+  "Gemini": {
+    "full_response": {
+      "rouge_l": 0.1417,
+      "bert_f1": 0.8413,
+      "cosine_sim": 0.6069
+    },
+    "first_sentence": {
+      "rouge_l": 0.2255,
+      "bert_f1": 0.8613,
+      "cosine_sim": 0.5664
+    },
+    "directness": 0.8
+  }
+}
