@@ -11,6 +11,8 @@ pydantic
 pydantic-settings
 cryptography
 python-dateutil
+bcrypt
+pyjwt
 
 # AI / ML (torch is pre-installed on Colab, don't pin version)
 transformers
